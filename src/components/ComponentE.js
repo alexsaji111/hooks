@@ -3,8 +3,10 @@ import React from 'react'
 import { userContext, channelContext } from '../App'
 
 function ComponentE() {
+
    const user = userContext(userContext)
    const channel = userContext(channelContext)
+   
     return (
         <div>
             {user} - {channel}
